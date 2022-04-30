@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Minimalist App</title>
+    <link rel="stylesheet" href="fetch-data.css">
+    <script defer src="fetch-data.dart.js"></script>
+
+
+</head>
+
+<body>
+    <h1>It's All About You</h1>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Enter value</th>
+                <th>Data type</th>
+                <th>JSON string</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td align="right">Favorite number:</td>
+                <td><input type="text" id="favoriteNumber"></td>
+                <td>integer</td>
+                <td><textarea class="result" id="intAsJson" readonly></textarea></td>
+            </tr>
+            <tr>
+                <td align="right">Do you konw pi?</td>
+                <td><input type="text" id="valueOfPi"></td>
+                <td>double</td>
+                <td><textarea class="result" id="doubleAsJson" readonly></textarea></td>
+            </tr>
+            <tr>
+                <td align="right">What's your sign?</td>
+                <td><input type="text" id="horoscope"></td>
+                <td>String</td>
+                <td><textarea class="result" id="stringAsJson" readonly></textarea></td>
+            </tr>
+            <tr>
+                <td align="right">A few of your favorite things?</td>
+                <td>
+                    <input type="text" id="favoriteOne">
+                    <input type="text" id="favoriteTwo">
+                    <input type="text" id="favoriteThree">
+                </td>
+                <td>List&lt;String&gt;</td>
+                <td><textarea class="result" id="listAsJson" readonly></textarea></td>
+            </tr>
+            <tr>
+                <td align="right">I love chocolate!</td>
+                <td>
+                    <form>
+                        <input type="radio" name="chocolate" id="lovechocolate" checked>True
+                        <input type="radio" name="chocolate" id="noLovechocolate" checked>False
+                    </form>
+                <td>bool</td>
+                <td><textarea class="result" id="boolAsJson"></textarea></td>
+                </td>
+
+            </tr>
+
+
+        </tbody>
+
+    </table>
+    <div>
+        <label>All data together as a map</label>
+        <textarea id="mapAsJson" readonly></textarea>
+    </div>
+    <p><a href="/">Home</a></p>
+</body>
+
+</html>

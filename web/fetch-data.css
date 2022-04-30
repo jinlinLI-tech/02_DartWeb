@@ -1,0 +1,42 @@
+body {
+    background-color: #F8F8F8;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 15px;
+}
+
+h1,
+p,
+td,
+th,
+label {
+    font-weight: bold;
+}
+
+table {
+    color: #333;
+    text-align: left;
+    border-spacing: 5px 15px;
+}
+
+textarea {
+    resize: none;
+}
+
+.result {
+    background-color: Ivory;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+}
+
+#mapAsJson {
+    background-color: Ivory;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid black;
+    margin-top: 15px;
+    width: 500px;
+    height: 50px;
+    font-size: 14px;
+}

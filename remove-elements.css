@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: whiteSmoke;
+    margin: 15px;
+    color: black;
+}
+
+h2 {
+    color: black;
+}
+
+#to-do-input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    width: 100;
+    border: 1px solid Silver;
+    padding: 5px 0px 5px 5px;
+    background: White;
+    ;
+
+}
+
+#to-to-list {
+    padding: 0px;
+    margin: 0px;
+    list-style-position: inside;
+}
+
+#to-do-list li {
+    padding: 5px, 0px, 5px, 5px;
+    border-bottom: 1px dotted Silver;
+}
+
+#to-do-list li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+#delete-all:hover {
+    background-color: #ddd;
+}
